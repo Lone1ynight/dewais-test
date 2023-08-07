@@ -1,0 +1,6 @@
+@import './styles/_mixins';
+
+.App {
+  @include flex-center(center);
+  padding: 200px;
+}
